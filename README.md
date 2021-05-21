@@ -22,65 +22,94 @@ The contents are provided as [Open Educational Resource](https://de.wikipedia.or
 You can give the project a [Star](https://github.com/spatialaudio/signals-and-systems-lecture/stargazers)
 if you like the notebooks.
 
-## Getting Started
+## Content
 
-The Jupyter notebooks are accessible in various ways
+### Signals
+* [Standard Signals](continuous_signals/standard_signals.ipynb)
+* [Operations](continuous_signals/operations.ipynb)
 
-* Online as [static web pages](http://nbviewer.ipython.org/github/spatialaudio/signals-and-systems-lecture/blob/master/index.ipynb)
-* Online for [interactive usage](https://mybinder.org/v2/gh/spatialaudio/signals-and-systems-lecture/master?filepath=index.ipynb) with [binder](https://mybinder.org/)
-* Local for interactive usage on your computer
-
-Other online services (e.g. [Google Colaboratory](https://colab.research.google.com),
-[Microsoft Azure](https://azure.microsoft.com/), ...) provide environments for
-interactive execution of Jupyter notebooks as well.
-Local execution on your computer requires a local Jupyter/IPython installation.
-The [Anaconda distribution](https://www.continuum.io/downloads) can be
-considered as a convenient starting point.
-Then, you'd have to [clone/download the notebooks from Github](http://github.com/spatialaudio/signals-and-systems-lecture).
-Use a [Git](http://git-scm.org/) client to clone the notebooks and then start
-your local Jupyter server. For manual installation under OS X/Linux please
-refer to your packet manager.
+### Characterization of Systems in Time Domain
+* [Impulse Response](systems_time_domain/impulse_response.ipynb)
+* [Convolution](systems_time_domain/convolution.ipynb)
+* [Step Response](systems_time_domain/step_response.ipynb)
+* [Eigenfunctions and the Transfer Function](systems_time_domain/eigenfunctions.ipynb)
+* [Example: Analysis of a Passive Electrical Network](systems_time_domain/network_analysis.ipynb)
+* [Example: Analysis of a Damped Spring Pendulum](systems_time_domain/spring_pendulum_analysis.ipynb)
 
 
-## Concept and Contents
+### The Laplace Transform
+* [Definition](laplace_transform/definition.ipynb)
+* [Properties](laplace_transform/properties.ipynb)
+* [Theorems](laplace_transform/theorems.ipynb)
+* [Summary of Properties, Theorems and Transforms](laplace_transform/table_theorems_transforms.ipynb)
+* [Inverse Transform](laplace_transform/inverse.ipynb)
+* [Analysis of Passive Electrical
+  Networks](laplace_transform/network_analysis.ipynb)
 
-An understanding of the underlying mechanisms and the limitations of basic
-signal processing methods is essential for the design of more complex techniques,
-such as for example the recent contributions on indirect [detection of supermassive
-black holes](https://en.wikipedia.org/wiki/Messier_87)
-heavily relying on system identification and image processing.
+### The Fourier Transform
+* [Definition](fourier_transform/definition.ipynb)
+* [Properties](fourier_transform/properties.ipynb)
+* [Theorems](fourier_transform/theorems.ipynb)
+* [Summary of Properties, Theorems and
+  Transforms](fourier_transform/table_theorems_transforms.ipynb)
 
-The present notebooks cover the fundamentals of linear and time-invariant
-signals and systems.
-A focus is laid on a detailed mathematical treatise.
-The discussion of the mathematical background is important to understand the
-underlying principles in a more general manner.
-The materials contain a series of computational examples and exercises to
-interpret the theoretical findings and foster understanding.
-The examples are designed to be explored in an interactive manner.
-Furthermore, an outlook to practical applications is given whenever possible.
+### Characterization of Systems in Spectral Domain
+* [The Transfer Function](systems_spectral_domain/transfer_function.ipynb)
+* [The Bode Plot](systems_spectral_domain/bode_plot.ipynb)
+* [Phase and Group Delay](systems_spectral_domain/phase_group_delay.ipynb)
+* [Combination of Systems](systems_spectral_domain/combination.ipynb)
 
-The material is organized in two major blocks, namely
+### Properties of LTI system
+* [Causality and Stability](systems_properties/causality_stability.ipynb)
+* [Classes of Systems](systems_properties/classes.ipynb)
+* [Idealized Systems](systems_properties/idealized_systems.ipynb)
 
-* continuous-time and
-* discrete-time (temporal sampling)
+### Periodic Signal
+* [Spectrum](periodic_signals/spectrum.ipynb)
+* [Relation between Spectrum and Fourier Series](periodic_signals/fourier_series.ipynb)
+* [Convolution of a Periodic with an Aperiodic
+  Signal](periodic_signals/convolution.ipynb)
 
-signals and systems.
-The two blocks become interrelated by the discussion of the ideal temporal
-sampling process and its inherent implications on sampled signals.
-The didactical layouts for the two blocks are quite similar:
+### Sampling of Signal
+* [Ideal Sampling and Reconstruction](sampling/ideal.ipynb)
 
-* introduction into signals and LTI systems
-* standard signals and operations
-* characterization of LTI systems in the time-domain
-* spectral representation of signals (Laplace and Fourier transform vs. z- and discrete-time Fourier transform)
-* spectral representation of LTI systems
-* properties of LTI systems
+### Discrete Signals
+* [Standard Signals](discrete_signals/standard_signals.ipynb)
+* [Operations](discrete_signals/operations.ipynb)
 
-This allows to observe the similarities and differences between the
-continuous- and discrete-time case but otherwise for reading a
-block without having studied the other one.
+### Characterization of Discrete Systems in Time Domain
+* [Difference Equation](discrete_systems_time_domain/difference_equation.ipynb)
+* [Impulse Response](discrete_systems_time_domain/impulse_response.ipynb)
+* [Linear Convolution](discrete_systems_time_domain/linear_convolution.ipynb)
+* [Example: Convolution of an Audio Signal with a Room Impulse Response](discrete_systems_time_domain/convolution_room_IR.ipynb)
+* [Eigenfunctions and the Transfer Function](discrete_systems_time_domain/eigenfunctions.ipynb)
 
+* [Definition](z_transform/definition.ipynb)
+* [Properties](z_transform/properties.ipynb)
+* [Theorems](z_transform/theorems.ipynb)
+* [Summary of Properties, Theorems and Transforms](z_transform/table_theorems_transforms.ipynb)
+
+### Discrete-Time Fourier Transform
+* [Definition](discrete_time_fourier_transform/definition.ipynb)
+* [Properties](discrete_time_fourier_transform/properties.ipynb)
+* [Theorems](discrete_time_fourier_transform/theorems.ipynb)
+* [Summary of Properties, Theorems and
+  Transforms](discrete_time_fourier_transform/table_theorems_transforms.ipynb)
+
+### Discrete Fourier Transform
+* [Definition](discrete_fourier_transform/definition.ipynb)
+* [Properties](discrete_fourier_transform/properties.ipynb)
+* [Theorems](discrete_fourier_transform/theorems.ipynb)
+* [Summary of Properties, Theorems and Transforms](discrete_fourier_transform/table_theorems_transforms.ipynb)
+* [The Fast Fourier Transform](discrete_fourier_transform/fast_fourier_transform.ipynb)
+* [Fast Convolution](discrete_fourier_transform/fast_convolution.ipynb)
+
+### Characterization of Discrete-Time in the Spectral Domain
+* [The Transfer Function](discrete_systems_spectral_domain/transfer_function.ipynb)
+* [Example: Measurement of an Electroacoustic Transfer Function](discrete_systems_spectral_domain/measurement_acoustic_transfer_function.ipynb)
+* [Magnitude and Phase](discrete_systems_spectral_domain/magnitude_phase.ipynb)
+* [Phase and Group Delay](discrete_systems_spectral_domain/phase_group_delay.ipynb)
+* [Combination of Systems](discrete_systems_spectral_domain/combination.ipynb)
 
 ## Usage and Contributing
 
