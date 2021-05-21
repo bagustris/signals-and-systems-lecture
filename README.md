@@ -1,11 +1,11 @@
 # Continuous- and Discrete-Time Signals and Systems - Theory and Computational Examples
 
-![Integration Test](https://github.com/spatialaudio//signals-and-systems-lecture/workflows/Integration%20Test/badge.svg)
+![Integration Test](https://github.com/bagustris//signals-and-systems-lecture/workflows/Integration%20Test/badge.svg)
 
 This repository collects didactically edited [Jupyter](https://jupyter.org/)
 notebooks that introduce the theory of linear, time-invariant (LTI) signals and
 systems.
-Please take a look at the [static version](http://nbviewer.ipython.org/github/spatialaudio/signals-and-systems-lecture/blob/master/index.ipynb)
+Please take a look at the [static version](http://nbviewer.ipython.org/github/bagustris/signals-and-systems-lecture/blob/master/index.ipynb)
 for a first glance.
 The continuous-time case, as well as the temporally sampled (discrete-time)
 case is covered.
@@ -19,7 +19,7 @@ The notebooks constitute the lecture notes to the bachelor's course
 given by [Sascha Spors](http://www.int.uni-rostock.de/Staff-Info.23+B6JmNIYXNoPWUxOTliMTNjY2U2MDcyZjJiZTI0YTc4MmFkYTE5NjQzJnR4X2pwc3RhZmZfcGkxJTVCYmFja0lkJTVEPTMmdHhfanBzdGFmZl9waTElNUJzaG93VWlkJTVEPTExMQ__.0.html) at the University of Rostock, Germany.
 The contents are provided as [Open Educational Resource](https://de.wikipedia.org/wiki/Open_Educational_Resources)
 , so feel free to fork, share, teach and learn.
-You can give the project a [Star](https://github.com/spatialaudio/signals-and-systems-lecture/stargazers)
+You can give the project a [Star](https://github.com/bagustris/signals-and-systems-lecture/stargazers)
 if you like the notebooks.
 
 ## Content
@@ -137,25 +137,12 @@ authorship.
 
 You are invited to contribute on different levels.
 The lowest level is to provide feedback in terms of a
-[Star](https://github.com/spatialaudio/signals-and-systems-lecture/stargazers)
+[Star](https://github.com/bagustris/signals-and-systems-lecture/stargazers)
 if you like the contents.
 Please consider reporting errors or suggestions for improvements as
-[issues](https://github.com/spatialaudio/digital-signal-processing-lecture/issues).
+[issues](https://github.com/bagustris/digital-signal-processing-lecture/issues).
 We are always looking forward to new examples and exercises, as well as
 reformulation of existing and novel sub-sections or sections.
 Authorship of each considerable contribution will be clearly stated.
 One way of introducing reformulated and new material is to handle them as
-a tracked [pull request](https://github.com/spatialaudio/signals-and-systems-lecture/pulls).
 
-We are currently working on an accompanying
-[exercise repository](https://github.com/spatialaudio/signals-and-systems-exercises)
-to gain knowledge and experience on manual calculation of prototypical signal
-and systems problems.
-This will be online very soon.
-
-
-## Build Status
-
-The computational examples in the notebooks are automatically build and checked for errors by continuous integration using github actions.
-
-![Integration Test](https://github.com/spatialaudio//signals-and-systems-lecture/workflows/Integration%20Test/badge.svg)
