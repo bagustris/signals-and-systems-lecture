@@ -84,6 +84,7 @@ if you like the notebooks.
 * [Example: Convolution of an Audio Signal with a Room Impulse Response](discrete_systems_time_domain/convolution_room_IR.ipynb)
 * [Eigenfunctions and the Transfer Function](discrete_systems_time_domain/eigenfunctions.ipynb)
 
+### Z-transform
 * [Definition](z_transform/definition.ipynb)
 * [Properties](z_transform/properties.ipynb)
 * [Theorems](z_transform/theorems.ipynb)
